@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head
+  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <?php 
   include_once 'views/partials/head.php';?>
@@ -8,24 +8,13 @@
   <body>
   <?php include_once 'views/partials/nav.php';?>
 
-
-  <div id="carousel-main" class="carousel carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="  3000">
-      <img src="../source/bgimg.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="../source/bgimg2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="../source/bgimg3.jpg" class="d-block w-100" alt="...">
-    </div>
+  <div class="bgimg" >
+  <img src="source/bgimg.jpg" alt="...">
   </div>
-</div>
 
     <div class="content">
       <div class="d-flex justify-content-center m-5">
-        <!-- <h1>Welcome!!!</h1> -->
+        <h1>Welcome!</h1>
       </div>
       <div class="d-flex justify-content-center intro">
         <p class="shadow-lg p-5 mb-5 bg-body rounded" id="intro">

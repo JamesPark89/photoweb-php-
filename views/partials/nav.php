@@ -1,7 +1,8 @@
+
+<nav class="navbar navbar-expand-lg navbar-light">
 <div class="logo">
   <a class="navbar-brand" href="/"><img src="../../source/logo.png" alt="" /></a>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href=""></a>
     <button
